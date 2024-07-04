@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <body>
+    <header class="header">
+        <a href="#home"class="logo"> Priyanshi
+            <span>Priyanshi</span> </a>
+            <i class='bx bx-menu-alt-right' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home"> Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>  
+      </header>
+      <section class="home" id="Home">
+        <div class="home-content">
+          <h1 class="animated-text" id="typed-text"></h1>
+        <h3> A <span>Computer Programming </span>student at Georgian College</h3>
+        <p>Welcome to my portfolio! I'm excited to share my skills and experiences with you. Scroll down to learn more about me.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/priyanshi-chhabra-82a997292/">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="https://github.com/priyanshi024">
+          <i class="bx bxl-github"></i>
+        </a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn"> Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+        </div>
+    <div class="home-img">
+      <img src="img.jpg" alt="">
+    </div>
+</section>
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="img.jpg" alt="">
+  </div>
+  <div class="about-content">
+    <h2> About <span> ME</span></h2>
+    <p>
+      Hello! I'm Priyanshi, a passionate computer programming student at Georgian College. Currently pursuing a diploma in Computer programming, I am dedicated to mastering programming languages and software development.
+      <br><br>
+      With hands-on experience gained at Walmart, I've honed my skills in operational management and customer service. Proficient in Java, Python, and web development technologies, I have a strong focus on problem-solving and innovation.
+      <br><br>
+      Known for my strong analytical abilities, attention to detail, and enthusiasm for learning new technologies, I aspire to leverage my technical skills in a role that allows me to contribute to innovative projects in financial technology. Let's connect to explore how my skills can contribute to your team's success.
+    </p>
+    <a href="#" class="btn"> Read more</a>
+  </div>
+</section>
+<section class="skills" id="skills">
+  <h2 class="heading">Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill-box">
+      <div class="skill-info">
+      <i class="bx bxs-devices"></i>
+      <h4>technical skills</h4>
+      <ul>
+        <li>Programming Languages: Skilled in Java, Python, C++, JavaScript, and HTML for versatile application development.</li>
+        <li>Databases: Proficient in database management systems including MySQL and NoSQL.</li>
+        <li>Analytical Problem-Solving: Exceptional abilities in identifying root causes and developing innovative solutions.</li>
+        <li>Cloud Computing: Familiar with AWS or Azure for scalable application deployment.</li>
+    </ul>
+      </div>
+    </div>
+    <div class="skill-box">
+      <div class="skill-info">
+      <i class='bx bx-code'></i>
+      <h4>Soft Skills</h4>
+      <ul>
+        <li>Teamwork: Established and maintained effective working relationships with colleagues and stakeholders, actively contributing to projects while adapting flexibly to various team roles.</li>
+        <li>Attention to Detail: Known for meticulous attention to detail, ensuring accuracy and quality in all tasks and projects undertaken. </li>
+        <li>Time Management: Ability to manage multiple parallel projects and meet deadlines.</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <span><h1>Contact Me</h1></span>
+        <p>Email: <a href="priyanshichhabra0024@gmail.com">your-email@example.com</a></p>
+        <p>Phone: <a href="tel:+14376691124">+1234567890</a></p>
+</section>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/priyanshi-chhabra-82a997292/">
+    <i class="bx bxl-linkedin-square"></i>
+  </a>
+  <a href="https://github.com/priyanshi024">
+    <i class="bx bxl-github"></i>
+  </a>
+  </div>
+  <ul class="list">
+    <li>
+        <a href="#">FAQ</a>
+    </li>
+    <li>
+        <a href="#skills">Skills</a>
+    </li>
+    <li>
+        <a href="#about">About</a>
+    </li>
+    <li>
+        <a href="#contact">Contact</a>
+    </li>
+</ul>
+  <p class="copyright">
+    @priyanshi priyanshi | All Rights Reserved
+  </p>
+</footer>
+<script>
+  var typed = new Typed('#typed-text', {
+    strings: [" HI!, its", "Priyanshi"],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+  });
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
